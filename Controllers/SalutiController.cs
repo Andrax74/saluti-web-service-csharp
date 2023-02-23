@@ -14,7 +14,7 @@ namespace Controllers
         [ProducesResponseType(StatusCodes.Status200OK)]
         public IActionResult TestConnex()
         {
-            return Ok(new InfoMsg("101", $"Saluti sono la tua prima web api csharp in Azure App Services"));
+            return Ok(new InfoMsg("101", $"Saluti sono la tua prima web api csharp in Azure App Services modificata con GitHub"));
         }
 
         [HttpGet("{Nome}")]
